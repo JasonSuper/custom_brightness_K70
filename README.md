@@ -26,6 +26,9 @@
 
 ## 安装与运行
 
+通过 Termux 安装（推荐）clang
+pkg install clang -y
+
 1. 将模块以 Magisk/KernelSU 模块方式安装。
 2. 安装脚本会尝试查找可用编译器（如 `clang`/`gcc`）并编译 `main.c`。
 3. 重启后，`service.sh` 启动 `brightness` 进程并读取 `config.conf`。
