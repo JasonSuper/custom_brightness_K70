@@ -26,7 +26,7 @@
 
 ## 安装与运行
 
-- 通过 Termux 安装clang （推荐）
+- 通过 Termux 安装clang（推荐）
 - pkg install clang -y
 
 1. 将模块以 Magisk/KernelSU 模块方式安装。
